@@ -1,18 +1,20 @@
 ---
-layout: page
+layout: archive
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Hi! My name is Katerina 
+Last 20 years I work at the intersection of software development, quality engineering, AI and automation, helping organizations build reliable, intelligent solutions.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I enjoy synthesizing knowledge from different areas, connecting technical and business perspectives, blending analytical with innovative, and drawing on experience from multiple domains, industries, companies, languages and cultures.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## My Skills
 
+### Technical Skills
 
-[jekyll-organization]: https://github.com/jekyll
+{% include technicalskills.md %}
+
+### Soft Skills
+
+{% include softskills.md %}
