@@ -9,4 +9,4 @@ author_profile: true
 ---
 
 # Hi! I'm Katerina. 
-I am a self-taught programmer, instructor, product manager, game developer, painter, and writer. Check out some of my favorite articles and projects below or go to [**My Work**](/mywork) or [**My Writing**](/mywriting) to see a categorized list.
+I am QA engineer, AI Consultant, self-taught programmer, instructor, product manager, game developer, personal trainer, and thriatlonist. Check out some of my favorite articles and projects below or go to [**My Work**](/mywork) or [**Training**](/training) to see a categorized list.
