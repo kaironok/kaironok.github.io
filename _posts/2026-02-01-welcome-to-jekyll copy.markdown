@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Welcome to My First Post!"
+title:  "Welcome to My Second Post!"
 date:   2026-02-01 08:30:31 +0000
 categories: work
 highlight_home: true

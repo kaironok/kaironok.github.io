@@ -1,10 +1,12 @@
 ---
 layout: home
-author_profile: true
 author: Katerina Kairo
+author_profile: true
 ---
 
-![katerina avatar](/assets/images/WhatsApp%20Image%202026-02-01%20at%2013.03.42.jpeg){: .avatar} 
+![katerina kairo](/assets/images/WhatsApp.jpeg){: .avatar} 
 
-# Hi! I'm Katerina Kairo. 
-I am a self-taught programmer, instructor, product manager, game developer, painter, and writer. Check out some of my favorite articles and projects below or go to [**My Work**](/mywork) or [**Training**](/training) to see a categorized list.
+---
+
+# Hi! I'm Katerina. 
+I am a self-taught programmer, instructor, product manager, game developer, painter, and writer. Check out some of my favorite articles and projects below or go to [**My Work**](/mywork) or [**My Writing**](/mywriting) to see a categorized list.
