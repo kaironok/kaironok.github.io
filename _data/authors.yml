@@ -1,7 +1,8 @@
 Katerina Kairo:
-  name        : "Katerina Kairo"
+
   bio         : "Let's talk about code! Reach out via the links below."
-  avatar      : "assets/images/Run.jpeg"
+  avatar      : "assets/images/Des.jpeg"
+
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
