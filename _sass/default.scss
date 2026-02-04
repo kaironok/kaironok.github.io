@@ -13,16 +13,35 @@ a:visited {
 h3,
 h3.archive__subtitle {
     clear: both;
-    color: #050505;
+    color: #588361;
+   h3 {
+    clear: both;
+    color: #942f2f;
     font-family: "Waiting for the Sunrise";
     font-size: 1.35em;
+}
+
+/* Use Michroma for "My Favorite Work" / "My Favorite Articles" subtitles */
+h3.archive__subtitle {
+    clear: both;
+    color: #810202;
+    font-family: "Michroma", sans-serif;
+    font-size: 1.35em;
+}
+
+/* Utility class if you want to apply Michroma elsewhere */
+.michroma-regular {
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 }
 
 
 
 h1,
 h2 {
-    color: #050505;
+    color: #053101;
     font-family: "Montserrat";
     font-weight: 700;
 }

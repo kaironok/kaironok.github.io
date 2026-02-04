@@ -1,5 +1,5 @@
 ---
-title: My Work
+title: Work
 layout: categories_work
 author: Katerina Kairo
 author_profile: true

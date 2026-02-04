@@ -8,10 +8,10 @@ author_profile: true
 
 --- 
 
-# Hi! I'm Katerina. 
-I’m a QA manager, AI consultant, self‑taught programmer, product manager, personal trainer and triathlete. Lots of my time spent at the intersection of technology, learning and human performance. I love building products, systems, skills. 
+# Welcome! 
+My name is Katerina. I’m a QA manager, AI consultant, self‑taught programmer, product manager, and triathlete. Lots of my time spent at the intersection of technology, learning and cross-collaboration. I love QA, systems, skills. 
 
 ---
 
-Below you’ll find some of my favorite articles and projects, or you can explore My Work or Training for a categorized view of what I’ve been creating. [**My Work**](/mywork) or [**Training**](/training).
+Below you’ll find some of my favorite articles and projects, or you can explore some works I’ve been creating.
 

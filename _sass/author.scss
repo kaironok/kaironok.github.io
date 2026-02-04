@@ -18,15 +18,23 @@
     color: #050505
     }
 
+    /* Sidebar fixed and fills viewport height on large screens */
     .sidebar.sticky {
-        background-color: #f1f1f1;
+        background-color: #ffffff;
         padding: 1em;
-        max-height: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0em;
-        bottom: 0;
+        position: fixed;
+        top: 4em;   /* distance from top (header height) */
+        bottom: 0;  /* stretch to bottom of viewport */
+        overflow-y: auto; /* scroll sidebar content if it’s taller than viewport */
     }
-    
+}
+
+/* On small screens, let the sidebar behave like normal content */
+@media only screen and (max-width: 899px) {
+    .sidebar {
+        position: static;
+        width: 100%;
+        min-height: auto;
+        padding: 1em 0;
+    }
 }
