@@ -1,18 +1,18 @@
 ---
 layout: posts
-title:  "Javascript Card Game Borrowed from LinkedIn Learning"
-date:   2026-02-01 16:13:27 -0500
-tags: [tutorial, javascript]
+title:  "Javascript Card Game from LL Leigh Lawhon"
+date:   2026-02-02 16:13:27 -0500
+tags: [javascript]
 author_profile: true
 author: Katerina
-categories: quality assurance
+categories: work
 highlight_home: true
 tagline: "How to build a card game"
 header:
-  overlay_image: https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-
-  caption: "Photo credit: [**Unsplash: David Travis**](https://unsplash.com/@dtravisphd)"
+  overlay_image: https://images.unsplash.com/photo-1541278107931-e006523892df
+  teaser: https://images.unsplash.com/photo-1541278107931-e006523892df
+  
+  caption: "Photo credit: [**Unsplash: Amanda Jones**](https://unsplash.com/@amandagraphc)"
 description: This article showcases a tutorial that teaches learners how to code.
 ---
 focus
