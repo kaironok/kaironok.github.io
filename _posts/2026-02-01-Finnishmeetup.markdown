@@ -31,3 +31,19 @@ The event was both inspiring and insightful. The presentations and discussions s
 ## Next
 
 I’m taking these insights and ideas forward into my own work and future collaborations. Events like this show how strong and motivated the testing community is, and I’m already looking forward to continuing these discussions and participating in future testing events.
+
+## Action point: Voting for Best Tester soon to be open! 
+You can cast your vote [here](https://www.tieturi.fi/blogi/ehdota-seuraavaa-vuoden-testaajaa/).
+
+---
+
+![Finnish Testing meetup](/assets/images/fin.jpeg)
+
+## Finnish Testing Meetup in Helsinki, Finland 
+group is [here](https://www.meetup.com/finland-testing-meetup-group/)
+
+---
+
+## coming soon updates to tags and categories 
+😏 😉 🤓 🧠 🚀
+🧩 🛠️ 🤖 ✨
