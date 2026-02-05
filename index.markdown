@@ -11,8 +11,8 @@ author_profile: true
 # Welcome! 
 ---
 
-Hi, I’m Katerina. An innovative technologist, AI consultant, self-taught programmer and product manager.
-Somewhere along the way, that might turn me into an Engineering Manager 😉
+I’m Katerina. An innovative technologist, AI and QA consultant, self-taught programmer and product manager.
+Somewhere along the way, that should turn me into an well-read, multi-talented and multilingual Architect 😉
 
 ---
 
