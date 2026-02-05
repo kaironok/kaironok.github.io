@@ -9,7 +9,10 @@ author_profile: true
 --- 
 
 # Welcome! 
-My name is Katerina. I’m a QA manager, AI consultant, self‑taught programmer, product manager, and triathlete. Lots of my time spent at the intersection of technology, learning and cross-collaboration. I love QA, systems, skills. 
+---
+
+Hi, I’m Katerina. An innovative technologist, AI consultant, self-taught programmer and product manager.
+Somewhere along the way, that might turn me into an Engineering Manager 😉
 
 ---
 

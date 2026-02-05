@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Shuffling Cards"
+title:  "Javascript Card Game Borrowed from LinkedIn Learning"
 date:   2023-07-01 16:13:27 -0500
 tags: [tutorial, javascript]
 author_profile: true
@@ -15,6 +15,8 @@ header:
   caption: "Photo credit: [**Unsplash: Amanda Jones**](https://unsplash.com/@amandagraphc)"
 description: This article showcases a tutorial that teaches learners how to code.
 ---
+focus
+
 
 > To see a preview of this project go to [Shuffling Cards on Codespaces](https://didactic-fortnight-7g4655jxv5r2p6vx.github.dev/) and select the `index.html` file and then `go live` on the status bar.
 

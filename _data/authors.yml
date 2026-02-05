@@ -1,7 +1,7 @@
 Katerina Kairo:
 
-  bio         : "Let's talk about code! Reach out via the links below."
-  avatar      : "assets/images/Des.jpeg"
+  bio         : "Let's talk about innovations! Reach out via the links below."
+  avatar      : "assets/images/K.jpeg"
 
   links:
     - label: "Email"
@@ -9,5 +9,5 @@ Katerina Kairo:
       url: "mailto:name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://www.mywebsite.com"
+      url: "https://www.linkedin.com/in/katerina-kairo-b3223546/"
  

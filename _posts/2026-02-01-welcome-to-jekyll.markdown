@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Unit testing with AI"
+title:  "AI Unit testing"
 date:   2023-07-01 16:13:27 -0500
 tags: [tutorial, javascript]
 author_profile: true

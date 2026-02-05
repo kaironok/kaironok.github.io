@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Welcome to My Second Post!"
+title:  "Welcome to My Test!"
 date:   2026-02-01 08:30:31 +0000
 categories: work
 highlight_home: true
@@ -12,6 +12,9 @@ header:
   caption: "Photo credit: [**Unsplash: Frances Gunn**](https://unsplash.com/@francesgunn)"
 description: This article explains the BARN method, a framework for showcasing your projects.
 ---
+
+focus 
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:

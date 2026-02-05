@@ -7,9 +7,33 @@ technical:
    level: Advanced
  - title: ReactJS
    level: Advanced
+ - title: JavaScript
+   level: Intermediate  
+ - title: Git
+   level: Intermediate
+ - title: Jekyll
+   level: Intermediate
+ - title: Markdown
+   level: Intermediate
+ - title: SEO
+   level: Intermediate
+ - title: Web Accessibility
+   level: Intermediate
+ - title: Test Automation
+   level: Advanced 
+ - title: CI/CD
+   level: Advanced
+ - title: Cloud Computing
+   level: Intermediate
+ - title: Data Analysis
+   level: Intermediate
 
 soft:
  - title: Writing
    level: Intermediate
  - title: Leadership
    level: Intermediate
+ - title: Communication
+   level: Intermediate
+ - title: Problem Solving
+   level: Advanced
