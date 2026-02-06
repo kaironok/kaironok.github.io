@@ -9,10 +9,10 @@ categories: work
 highlight_home: true
 tagline: "Attending the Finnish Testing Meetup in Helsinki, Finland"
 header:
-  overlay_image: https://images.unsplash.com/photo-1572100539506-4ed5b1de51c8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1572100539506-4ed5b1de51c8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: "Photo credit: [**Unsplash: Amanda Jones**](https://unsplash.com/@amandagraphc)"
-description: This article showcases events happening.
+  overlay_image: https://images.unsplash.com/photo-1544027993-37dbfe43562a
+  teaser: https://images.unsplash.com/photo-1544027993-37dbfe43562a
+  caption: "Photo credit: [**Unsplash: Toa Heftiba**](https://unsplash.com/@heftiba)"
+description: This article showcases testing communities events.
 ---
 
 

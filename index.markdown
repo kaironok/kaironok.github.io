@@ -7,12 +7,12 @@ author_profile: true
 ![katerina kairo](/assets/images/WhatsApp.jpeg){: .avatar} 
 
 
-# Welcome! 
+# Welcome
 
-My name is Katerina. I am an innovative technologist, AI and QA consultant, self-taught programmer and engineering manager.
-Somewhere along the way, that should turn me into an well-read, multi-talented and multilingual Architect 😉
+I am an innovative technologist, AI and QA engineer, self-taught programmer, translator and occasionally photographer, video editor etc.
+Somewhere along the way, that should turn me into an well-read, multi-talented and multilingual Senior Architect 😉
 
 ---
 
-Below you’ll find some articles and projects I started to collect, or you can explore how this site functions and then build your own.
+Below you’ll find some articles and projects I started to collect, or you can explore how this site functions and then build your own portfolio. Feel free to reach out if you have any questions, suggestions, or just want to say hi!
 

@@ -9,22 +9,22 @@ categories: work
 highlight_home: true
 tagline: "How to build unit tests with AI"
 header:
-  overlay_image: https://images.unsplash.com/photo-1572100539506-4ed5b1de51c8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1572100539506-4ed5b1de51c8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: "Photo credit: [**Unsplash: Amanda Jones**](https://unsplash.com/@amandagraphc)"
+  overlay_image: https://images.unsplash.com/photo-1611444111920-89dfc4a01f43
+  teaser:  https://images.unsplash.com/photo-1611444111920-89dfc4a01f43
+  caption: "Photo credit: [**Unsplash: Marin Tulard**](https://unsplash.com/@mtulard)"
 description: This article explains unit testing with AI.
 ---
+## testing with AI
 
+> To see a preview of this project go to (address will come soon) and select the `index.html` file and then `go live` on the status bar.
 
 
 ## Background
 
-I recently designed and built an expense‑tracker application as part of my ongoing work in QA engineering and AI‑assisted development. The project started as a personal challenge: create a clean, intuitive tool for managing expenses while also exploring how AI can meaningfully support software quality. What began as a simple idea quickly evolved into a full end‑to‑end build, combining product thinking, engineering, and experimentation with modern AI workflows.
-
+I recently designed and built an expense‑tracker application as part of my ongoing work in QA engineering and AI‑assisted development. The project started as a personal challenge: create a clean, intuitive tool for managing expenses while also exploring how AI can meaningfully support software quality.
 ## Approach
 
-My goal was to treat this project as both a product and a learning environment. I architected the application with clarity and maintainability in mind, then integrated AI to generate structured, scenario‑based test cases. Instead of relying solely on manual QA processes, I used AI to simulate edge cases, user flows, and failure conditions that might otherwise be overlooked. This hybrid approach allowed me to validate the app’s logic, improve reliability, and demonstrate how AI can elevate traditional QA practices.
-
+My goal was to treat this project as both a product and a learning environment. I architected the application with clarity and maintainability in mind, then integrated AI to generate structured, scenario‑based test cases.
 ## Results
 The final application is a lightweight, user‑friendly expense tracker supported by a robust suite of AI‑generated test cases. The testing process surfaced issues early, strengthened the codebase, and showcased how AI can accelerate quality assurance without sacrificing depth. This project has become one of my favorite examples of blending engineering, product design, and AI‑driven testing into a single cohesive workflow.
 

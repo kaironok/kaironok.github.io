@@ -2,7 +2,7 @@
 main:
   - title: "Home"
     url: "/"
-  - title: "Work"
+  - title: "◯"
     url: "/mywork"
   - title: "Resume"
     url: "/resume"

@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Javascript Card Game from LL Leigh Lawhon"
+title:  "Javascript Card Game by Leigh Lawhon"
 date:   2026-02-02 16:13:27 -0500
 tags: [javascript]
 author_profile: true
@@ -9,27 +9,23 @@ categories: work
 highlight_home: true
 tagline: "How to build a card game"
 header:
-  overlay_image: https://images.unsplash.com/photo-1541278107931-e006523892df
-  teaser: https://images.unsplash.com/photo-1541278107931-e006523892df
-  
-  caption: "Photo credit: [**Unsplash: Amanda Jones**](https://unsplash.com/@amandagraphc)"
+ teaser: https://images.unsplash.com/photo-1516321318423-f06f85e504b3
+ overlay_image: https://images.unsplash.com/photo-1516321318423-f06f85e504b3
+ caption: "Photo credit: [**Unsplash: John Schnobrich*](https://unsplash.com/@johnschno)"
 description: This article showcases a tutorial that teaches learners how to code.
 ---
-focus
 
+## Javascript at focus
 
 > To see a preview of this project go to [Shuffling Cards on Codespaces](https://didactic-fortnight-7g4655jxv5r2p6vx.github.dev/) and select the `index.html` file and then `go live` on the status bar.
 
-![go live](/assets/images/golive.png)
+![go live](/assets/images/Live.jpeg)
 
 ## Background
-A few years ago, I had the opportunity to build an app for LinkedIn Learning. The project aimed to teach the concepts of binding and propagation in plain JavaScript. Over a span of two months, I meticulously developed the course, and the recording took place at the LinkedIn campus in Carpenteria, CA. This venture marked my first tutorial collaboration with LinkedIn, and it proved to be an incredible experience. I came across this opportunity through a job board dedicated to female developers, and the entire process, from working with the content manager to the producer, was highly professional.
-
+I came across a story from Leigh about building an app for LinkedIn Learning. I’m not the author myself—I’m just learning and retelling the experience in her style. In the story, she described how she spent two months creating a course that teaches binding and propagation in plain JavaScript, and later recorded it at the LinkedIn campus in Carpenteria, CA. It was her first collaboration with LinkedIn, discovered through a job board for women developers, and the whole process—from content manager to producer—was handled with real professionalism.
 ## Approach
-In all my courses, I strive to create a narrative that complements the learning objectives. In the case of this particular project, I found that using cards as an analogy was a natural fit. By leveraging this analogy, I was able to elucidate complex JavaScript concepts in a simplified and easily understandable format for learners.
-
+What I’m repeating from her is the way she builds narratives into her courses. For this project, she chose cards as an analogy because it made abstract JavaScript concepts feel concrete and intuitive. That storytelling approach helped learners understand ideas that might otherwise feel complicated.
 ## Results
-Upon publication, the course garnered significant attention, accumulating over 6,500 viewers to date. It remains one of my personal favorite tutorials, as it encapsulates my passion for teaching and the JavaScript language.
-
+In her original account,Leigh described it as one of her favorite tutorials because it reflects her passion for both teaching and JavaScript.
 ## Next Steps
-After witnessing the success of the cooking-inspired coding lesson, I am thrilled to share that I am incorporating the "Piece of Cake" app in my current tutorial, "Creating GitHub Portfolios." This exciting project seamlessly integrates with Codespaces, offering learners a hands-on demonstration of leveraging GitHub portfolios effectively. By including the "Piece of Cake" code, my objective is to enrich the overall learning experience, enabling individuals to showcase their skills with confidence and flair.
+She also shared that the success of that project inspired her to bring the “Piece of Cake” app into her newer tutorial, Creating GitHub Portfolios. It fits naturally with Codespaces and gives learners a hands-on way to build and present their portfolios. By including that code, her goal was to make the learning experience richer and help people showcase their skills with confidence.

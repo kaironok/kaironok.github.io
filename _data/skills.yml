@@ -1,13 +1,13 @@
 technical:
- - title: CSS and SCSS
-   level: Intermediate
- - title: HTML5
+ - title: Quality Engineering
+   level: Advanced
+ - title: AI and Machine Learning
    level: Intermediate
  - title: Python
    level: Advanced
- - title: ReactJS
+ - title: Test Automation Frameworks
    level: Advanced
- - title: JavaScript
+ - title: Software Development
    level: Intermediate  
  - title: Git
    level: Intermediate
@@ -15,22 +15,22 @@ technical:
    level: Intermediate
  - title: Markdown
    level: Intermediate
- - title: SEO
-   level: Intermediate
- - title: Web Accessibility
-   level: Intermediate
+ - title: HTML/CSS
+   level: Advanced
+ - title: Test Management
+   level: Advanced
  - title: Test Automation
    level: Advanced 
  - title: CI/CD
    level: Advanced
  - title: Cloud Computing
-   level: Intermediate
+   level: Advanced
  - title: Data Analysis
-   level: Intermediate
+   level: Advanced
 
 soft:
- - title: Writing
-   level: Intermediate
+ - title: Public Speaking
+   level: Advanced
  - title: Leadership
    level: Intermediate
  - title: Communication
