@@ -29,7 +29,7 @@ You can find group here ↡ ↡ ↡
 
 ## About the event
 
-During the day, we had the opportunity to meet many people from the industry and take part in several internal presentations. I also participated in the conference program by giving presentations and contributing to discussions around testing practices, challenges, and innovation. In addition, the event highlighted a competition for the Best Tester of the Year, celebrating excellence within the field.
+I had a great opportunity to meet many people and take part in several presentations. I contributed to the program by sharing insights and actively participating in discussions about testing practices, challenges, and innovation. The event also featured a competition for the Best Tester of the Year, highlighting excellence within the field.
 
 ## Key takeaways
 

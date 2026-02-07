@@ -1,0 +1,45 @@
+---
+layout: posts
+title:  "API Days Conference"
+date:   2026-02-01 16:13:27 -0500
+tags: [meetup, testing, community]
+author_profile: true
+author: Katerina
+categories: work
+highlight_home: true
+tagline: "Attending the API Days Conference in Helsinki, Finland"
+header:
+  overlay_image: https://images.unsplash.com/photo-1562774164-90750149384c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1562774164-90750149384c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  caption: "Photo credit: [**Unsplash: Toa Heftiba**](https://unsplash.com/@heftiba)"
+description: This article showcases API Days conference events.
+---
+
+
+
+Here to communities and events!
+
+I had a chance to attend the API Days Conference in Helsinki, Finland. The conference brought together professionals from the API ecosystem, including developers, architects, and business leaders. It was a great opportunity to learn about the latest trends and best practices in API design, development, and management.
+
+![API Days Conference](/assets/images/api.jpeg)
+
+## API Days Conference in Helsinki, Finland
+
+## About the event
+
+
+
+## My Talk Contribution
+
+
+## Next steps
+
+
+---
+
+
+---
+
+## coming soon updates to tags and categories 
+😏 😉 🤓 🧠 🚀
+🧩 🛠️ 🤖 ✨

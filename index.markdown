@@ -14,5 +14,5 @@ Somewhere along the way, that should turn me into an well-read, multi-talented a
 
 ---
 
-Below you’ll find some articles and projects I started to collect, or you can explore how this site functions and then build your own portfolio. Feel free to reach out if you have any questions, suggestions, or just want to say hi!
+Below you’ll find some articles and projects I started to collect, or you can explore how this site functions and then build your own. Feel free to reach out if you have any questions, suggestions, or just want to say hi!
 
