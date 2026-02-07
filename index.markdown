@@ -10,7 +10,7 @@ author_profile: true
 # Welcome
 
 I am an innovative technologist, AI and QA engineer, self-taught programmer, translator and occasionally photographer, video editor etc.
-Somewhere along the way, that should turn me into an well-read, multi-talented and multilingual Senior Architect 😉
+Somewhere along the way that should turn me into a well-read, multi-talented and multilingual Senior Architect 😉
 
 ---
 
