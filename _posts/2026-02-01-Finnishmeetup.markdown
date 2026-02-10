@@ -21,7 +21,7 @@ Here to communities and events!
 
 Yesterday, I attended meetup event that brought together professionals across testing community. The event combined networking, knowledge sharing with strong focus on the future of software testing.
 
-You can find group here ↡ ↡ ↡
+You can find group here ↡ 
 ![Finnish Testing meetup](/assets/images/fin.jpeg)
 
 ## Finnish Testing Meetup in Helsinki, Finland 

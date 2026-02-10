@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Javascript Card Game by Leigh Lawhon"
+title:  "Javascript Card Game"
 date:   2026-02-02 16:13:27 -0500
 tags: [javascript]
 author_profile: true
@@ -22,10 +22,13 @@ description: This article showcases a tutorial that teaches learners how to code
 ![go live](/assets/images/Live.jpeg)
 
 ## Background
-I came across a story from Leigh about building an app for LinkedIn Learning. I’m not the author myself—I’m just learning and retelling the experience in her style. In the story, she described how she spent two months creating a course that teaches binding and propagation in plain JavaScript, and later recorded it at the LinkedIn campus in Carpenteria, CA. It was her first collaboration with LinkedIn, discovered through a job board for women developers, and the whole process—from content manager to producer—was handled with real professionalism.
+I came across a story from Leigh about building an app for LinkedIn Learning. I’m not the author myself—I’m just learning and retelling the experience in her style. 
+
 ## Approach
-What I’m repeating from her is the way she builds narratives into her courses. For this project, she chose cards as an analogy because it made abstract JavaScript concepts feel concrete and intuitive. That storytelling approach helped learners understand ideas that might otherwise feel complicated.
+What I’m repeating from her is the way she builded the game app. For this project, she chose cards as an analogy because it made abstract JavaScript concepts feel concrete and intuitive. That storytelling approach helped learners understand ideas that might otherwise feel complicated.
+
 ## Results
 In her original account,Leigh described it as one of her favorite tutorials because it reflects her passion for both teaching and JavaScript.
+
 ## Next Steps
 She also shared that the success of that project inspired her to bring the “Piece of Cake” app into her newer tutorial, Creating GitHub Portfolios. It fits naturally with Codespaces and gives learners a hands-on way to build and present their portfolios. By including that code, her goal was to make the learning experience richer and help people showcase their skills with confidence.
