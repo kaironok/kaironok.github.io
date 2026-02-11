@@ -4,10 +4,13 @@ author: Katerina Kairo
 author_profile: true
 ---
 
-![katerina kairo](/assets/images/le.jpeg){: .avatar} 
+![katerina kairo](/assets/images/moon.jpeg){: .avatar} 
 
+---
 
 # Welcome
+
+---
 
 I am an innovative technologist, AI and QA engineer, self-taught programmer, translator and occasionally photographer, video editor etc.
 Somewhere along the way that should turn me into a well-read, multi-talented and multilingual Senior Architect. 

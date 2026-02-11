@@ -22,10 +22,10 @@ description: This article showcases a tutorial that teaches learners how to code
 ![go live](/assets/images/Live.jpeg)
 
 ## Background
-I came across a story from Leigh about building an app for LinkedIn Learning. I’m not the author myself, I’m just learning and retelling the experience in her style. 
+I came across a story from Leigh about building an app for LinkedIn Learning.  
 
 ## Javascript Card Game
-The project is a simple card game built with JavaScript, HTML, and CSS. The game involves shuffling a deck of cards and displaying them on the screen. The main features include:
+The project is a simple card game built with JavaScript, HTML and CSS. The game involves shuffling a deck of cards and displaying them on the screen. The main features include:
 - A deck of cards represented as an array of objects, each with a suit and value.
 - A shuffle function that randomizes the order of the cards in the deck.
 - A display function that renders the shuffled cards on the webpage.

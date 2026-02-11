@@ -12,30 +12,29 @@ header:
   overlay_image: https://images.unsplash.com/photo-1611444111920-89dfc4a01f43
   teaser:  https://images.unsplash.com/photo-1611444111920-89dfc4a01f43
   caption: "Photo credit: [**Unsplash: Marin Tulard**](https://unsplash.com/@mtulard)"
-description: This article explains unit testing with AI.
+description: This article is about development and testing with AI.
 ---
 ## AI-Driven Development and Testing
 
-In this project I explored how AI can assist building and testing simple expense tracker application. By leveraging AI tools such as Cursor and Codex, I was able to generate app and test cases.
+In this project I explored how AI can assist building and testing simple expense tracker application by leveraging AI tools such as Cursor AI and OpenAI Codex.
 
 To see a preview of this project go to [AI-DEV-TEST on Codespaces](https://crispy-xylophone-6j7q55xpvg4hwqg.github.dev/).
 
 ## Expense tracker application 
-The application is a simple terminal-based expense tracker that uses a CSV file as a database. The expenses have properties such as "name", "amount", and "category". The application allows users to add, view, and delete expenses, with all data being automatically saved to and loaded from the CSV file.
+The application is a simple terminal-based expense tracker that uses a CSV file as a database. The expenses have properties such as "name", "amount", and "category". The application allows users to add, view and delete expenses with all the data being automatically saved to and loaded from the CSV file.
 
-Promp used (Cursor AI) 
+Promp (Cursor AI): 
 "Build me an expense tracker application, where the expenses have the properties
-"name", "amount", and "category". The application should be a simple terminal-
+"name", "amount" and "category". The application should be a simple terminal-
 based app, and should use a CSV file as a database where expenses are
 automatically saved to and loaded from." 
 
 ## Steps
 
 1. Open Codespace.
-2. Run Expence_tracker.py file, alternatively ask GitHub Copilot.
-3. Follow the prompts in the terminal to add, view or delete expenses. 
+2. Run expence_tracker.py file or alternatively ask GitHub Copilot.
+3. Follow the prompts in the terminal to list, add, delete or edit expenses. 
 3. Verify CSV persistence.
-4. Check the generated CSV file to ensure that expenses are being saved correctly. 
 
 ![Command line](/assets/images/Extr.jpeg)
 
@@ -48,15 +47,16 @@ automatically saved to and loaded from."
   - add expenses
   - delete expenses
   - edit expenses
+  - exit
   
-## Simple Tests
- Random Palindrome and Vowel Tests. Coming soon: relevant update to expense tracker tests 
+## Simple Test
+ Random Palindrome and Vowel Tests are for demo purposes. Coming soon: relevant update to expense tracker tests. 
 
 - `is_palindrome(s)` behavior (case-insensitive, ignores spaces).
 - `starts_with_vowel(s)` behavior (checks first character against vowels).
 - Note that this file currently demonstrates behavior with direct `print(...)` calls instead of a formal pytest test suite.
 
-Check:
+Suggested check:
 ```bash
 python simple_test.py
 ```
@@ -76,21 +76,21 @@ pytest test_expense_tracker.py
 ```
 
 ## Integration Tests 
-- Relationship between `TodoItem` workflow and expense persistence.
+- Relationship between `To-do Item` workflow and expense persistence.
 - Integration behavior:
   - Completed task triggers expense creation.
   - Incomplete task does not create expense entry.
 
 Suggested check:
 ```bash
-printf 'yes\n4.50\n' | python integration_tests.py
+python integration_tests.py
 ```
 
 ## Test Report Description 
 
-- `TEST_REPORT.md`: narrative summary of pass/fail status, module-level coverage, and recommendations.
-- `test_results.txt`: raw command output from test execution.
-- `TEST_SUMMARY.csv`: compact machine-readable summary for reporting dashboards.
+- `TEST_REPORT.md`: human-readable summary of test results, including pass/fail status and key insights.
+- `test_results.txt`: raw output from test runs, useful for debugging and detailed analysis.
+- `TEST_SUMMARY.csv`: compact machine-readable summary for reporting dashboards or further processing.
 
 ## Next 
-This project demonstrated the potential of AI in code, test and documentation generation, significantly reducing time and effort required. Moving forward, I plan to explore more AI capabilities, to further enhance the software development lifecycle. Additionally, I aim to investigate how AI can assist in identifying edge cases and improving test coverage.
+Project demonstrates AI and human in the loop for code, test and documentation generation. Moving forward, I plan to explore more AI capabilities to further enhance the software development lifecycle. I plan to add soon new cases for creating an AI-powered agile tool and API design. Stay tuned for updates! 

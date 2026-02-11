@@ -1,13 +1,13 @@
 Katerina Kairo:
 
-  bio         : "Let's talk about innovations! Reach out via the links below."
+  bio         : "Let's talk ideas! Reach out via the links below."
   avatar      : "assets/images/K.jpeg"
 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:name@email.com"
-    - label: "Website"
+      url: "mailto:katerina.kairo@gmail.com"
+    - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
       url: "https://www.linkedin.com/in/katerina-kairo-b3223546/"
  
