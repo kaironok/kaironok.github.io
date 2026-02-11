@@ -4,7 +4,7 @@ author: Katerina Kairo
 author_profile: true
 ---
 
-![katerina kairo](/assets/images/moon.jpeg){: .avatar} 
+![katerina kairo](/assets/images/ka.jpeg){: .avatar} 
 
 ---
 
