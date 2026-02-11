@@ -22,13 +22,10 @@ description: This article showcases a tutorial that teaches learners how to code
 ![go live](/assets/images/Live.jpeg)
 
 ## Background
-I came across a story from Leigh about building an app for LinkedIn Learning. I’m not the author myself—I’m just learning and retelling the experience in her style. 
+I came across a story from Leigh about building an app for LinkedIn Learning. I’m not the author myself, I’m just learning and retelling the experience in her style. 
 
-## Approach
-What I’m repeating from her is the way she builded the game app. For this project, she chose cards as an analogy because it made abstract JavaScript concepts feel concrete and intuitive. That storytelling approach helped learners understand ideas that might otherwise feel complicated.
-
-## Results
-In her original account,Leigh described it as one of her favorite tutorials because it reflects her passion for both teaching and JavaScript.
-
-## Next Steps
-She also shared that the success of that project inspired her to bring the “Piece of Cake” app into her newer tutorial, Creating GitHub Portfolios. It fits naturally with Codespaces and gives learners a hands-on way to build and present their portfolios. By including that code, her goal was to make the learning experience richer and help people showcase their skills with confidence.
+## Javascript Card Game
+The project is a simple card game built with JavaScript, HTML, and CSS. The game involves shuffling a deck of cards and displaying them on the screen. The main features include:
+- A deck of cards represented as an array of objects, each with a suit and value.
+- A shuffle function that randomizes the order of the cards in the deck.
+- A display function that renders the shuffled cards on the webpage.

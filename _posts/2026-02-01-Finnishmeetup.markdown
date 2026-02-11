@@ -7,7 +7,7 @@ author_profile: true
 author: Katerina
 categories: work
 highlight_home: true
-tagline: "Attending the Finnish Testing Meetup in Helsinki, Finland"
+tagline: "Attending Finnish Testing Meetup in Helsinki, Finland"
 header:
   overlay_image: https://images.unsplash.com/photo-1544027993-37dbfe43562a
   teaser: https://images.unsplash.com/photo-1544027993-37dbfe43562a
@@ -19,7 +19,7 @@ description: This article showcases testing communities events.
 
 Here to communities and events!
 
-Yesterday, I attended meetup event that brought together professionals across testing community. The event combined networking, knowledge sharing with strong focus on the future of software testing.
+Yesterday, I attended meetup event that brought together professionals across testing community. The event combined networking, knowledge sharing with focus on the future of software testing.
 
 You can find group here ↡ 
 ![Finnish Testing meetup](/assets/images/fin.jpeg)
@@ -29,11 +29,11 @@ You can find group here ↡
 
 ## About the event
 
-I had a great opportunity to meet many people and take part in several presentations. I contributed to the program by sharing insights and actively participating in discussions about testing practices, challenges, and innovation. The event also featured a competition for the Best Tester of the Year, highlighting excellence within the field.
+I had a great opportunity to meet people and take part in several discussions. I contributed to the program by sharing insights and actively participating in conversations about testing practices, challenges, and innovation. The event also featured a competition for the Best Tester of the Year, highlighting excellence within the field.
 
 ## Key takeaways
 
-The event was both inspiring and insightful. The presentations and discussions sparked valuable conversations, strengthened connections within the community, and reinforced the importance of continuous learning and quality in testing.
+The event was both inspiring and insightful. The presentations and discussions strengthened connections within the community, and reinforced the importance of continuous learning and quality in testing.
 
 ## Next steps
 

@@ -16,36 +16,41 @@ description: This article explains unit testing with AI.
 ---
 ## AI-Driven Development and Testing
 
-AI is transforming how we approach software development and testing. In my recent project, I explored how AI can assist in building tests for a simple expense tracker application. By leveraging AI tools such as Cursor and Codex, I was able to automate the generation of test cases, ensuring that my code is robust and reliable.
+In this project I explored how AI can assist building and testing simple expense tracker application. By leveraging AI tools such as Cursor and Codex, I was able to generate app and test cases.
 
 To see a preview of this project go to [AI-DEV-TEST on Codespaces](https://crispy-xylophone-6j7q55xpvg4hwqg.github.dev/).
 
+## Expense tracker application 
+The application is a simple terminal-based expense tracker that uses a CSV file as a database. The expenses have properties such as "name", "amount", and "category". The application allows users to add, view, and delete expenses, with all data being automatically saved to and loaded from the CSV file.
+
+Promp used (Cursor AI) 
+"Build me an expense tracker application, where the expenses have the properties
+"name", "amount", and "category". The application should be a simple terminal-
+based app, and should use a CSV file as a database where expenses are
+automatically saved to and loaded from." 
+
+## Steps
+
 1. Open Codespace.
-2. Select Expence_tracker.py file and run it, alternatively ask GitHub Copilot.
-3. Run the application. Follow the prompts in the terminal to add, view or delete expenses. 
+2. Run Expence_tracker.py file, alternatively ask GitHub Copilot.
+3. Follow the prompts in the terminal to add, view or delete expenses. 
 3. Verify CSV persistence.
 4. Check the generated CSV file to ensure that expenses are being saved correctly. 
 
-## Expense tracker app
-Promp used (Cursor AI) for expense tracker application building:
-Build me an expense tracker application, where the expenses have the properties
-"name", "amount", and "category". The application should be a simple terminal-
-based app, and should use a CSV file as a database where expenses are
-automatically saved to and loaded from. Here are the steps to follow application:
+![Command line](/assets/images/Extr.jpeg)
 
 
 ## Expense Tracker
 
 - Purpose: command-line expense tracker with CSV persistence.
-- Main constants: `CSV_FILE`, `FIELDS`.
-- Core functions:
-  - load_expenses
-  - save_expense
+- Core features:
   - list expenses
-  - add_expense
+  - add expenses
+  - delete expenses
+  - edit expenses
   
 ## Simple Tests
- Palindrome and Vowel Tests  
+ Random Palindrome and Vowel Tests. Coming soon: relevant update to expense tracker tests 
 
 - `is_palindrome(s)` behavior (case-insensitive, ignores spaces).
 - `starts_with_vowel(s)` behavior (checks first character against vowels).
@@ -58,11 +63,11 @@ python simple_test.py
 
 ## Expense Tracker Tests
 - Testing `pytest` with `monkeypatch`, `tmp_path`, and `capsys`.
-- Coverage areas:
+- Core feautures tested:
   - CSV loading/saving.
   - Output formatting for listing expenses.
-  - Add, delete, and edit workflows.
-  - Main menu flow (including invalid input handling).
+  - Add, delete and edit expenses.
+  - Main features (including invalid input handling).
 - Explain helper `_set_csv(...)` for test isolation using a temporary CSV path.
 
 Suggested check:
@@ -88,4 +93,4 @@ printf 'yes\n4.50\n' | python integration_tests.py
 - `TEST_SUMMARY.csv`: compact machine-readable summary for reporting dashboards.
 
 ## Next 
-This project demonstrated the potential of AI in automating unit test generation, significantly reducing the time and effort required for testing. Moving forward, I plan to explore more advanced AI capabilities, such as generating integration tests and performance tests, to further enhance the software development lifecycle. Additionally, I aim to investigate how AI can assist in identifying edge cases and improving test coverage, ultimately leading to more reliable and maintainable codebases.
+This project demonstrated the potential of AI in code, test and documentation generation, significantly reducing time and effort required. Moving forward, I plan to explore more AI capabilities, to further enhance the software development lifecycle. Additionally, I aim to investigate how AI can assist in identifying edge cases and improving test coverage.
