@@ -18,8 +18,8 @@ description: This article is about development and testing with AI.
 
 In this project I explored how AI can assist building and testing simple expense tracker application by leveraging AI tools such as Cursor AI and OpenAI Codex.
 
-To see a preview of this project go to [AI-DEV-TEST on Codespaces](https://crispy-xylophone-6j7q55xpvg4hwqg.github.dev/).
-Note: In case codespace doesn't launch, repo can be found [here](https://github.com/kaironok/AI-DEV-TEST). 
+To see a preview of this project go to [AI-DEV-TEST on Codespaces](https://miniature-fortnight-9p4r55gwpgwcpxv4.github.dev/).
+Note: In case codespace doesn't launch, repo is [here](https://github.com/kaironok/AI-DEV-TEST). 
 
 ## Expense tracker application 
 The application is a simple terminal-based expense tracker that uses a CSV file as a database. The expenses have properties such as "name", "amount", and "category". The application allows users to add, view and delete expenses with all the data being automatically saved to and loaded from the CSV file.
