@@ -39,22 +39,6 @@ The site uses several Jekyll plugins for enhanced functionality:
 - Ruby 2.7+
 - Bundler
 
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/kaironok/kaironok.github.io.git
-cd kaironok.github.io
-
-# Install dependencies
-bundle install
-
-# Serve the site locally
-bundle exec jekyll serve
-```
-
-The site will be available at `http://localhost:4000`
-
 ## 📝 Configuration
 
 Main configuration is in `_config.yml`:
