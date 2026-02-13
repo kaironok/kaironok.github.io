@@ -1,23 +1,23 @@
 body {
-    background-color: rgb(220, 226, 221);
-    color: rgb(0, 0, 0);
+    background-color: rgb(249, 249, 249);
+    color: rgb(53, 53, 53);
 }
 
 a {
-    color: #000000
+    color: #1d1d1d
 }
 
 a:visited {
-    color: #020202
+    color: #1d1d1d
 }
 
 h3,
 h3.archive__subtitle {
     clear: both;
-    color: #0A173A;
+    color: #1d1d1d;
    h3 {
     clear: both;
-    color: #0A173A;
+    color: #1d1d1d;
     font-family: "Work Sans", sans-serif;
     font-size: 1.35em;
 }
@@ -25,7 +25,7 @@ h3.archive__subtitle {
 /* Use Michroma for "My Favorite Work" / "My Favorite Articles" subtitles */
 h3.archive__subtitle {
     clear: both;
-    color: #0A173A;
+    color: #1d1d1d;
     font-family: "Work Sans", sans-serif;
     font-size: 1.35em;
 }
@@ -42,8 +42,14 @@ h3.archive__subtitle {
 
 h1,
 h2 {
-    color: #0A173A;
-    font-family: "Michroma", sans-serif;
+    color: #333333;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 600;
+}
+
+h3,
+h3.archive__subtitle {
+    color: #333333;
     font-weight: 500;
 }
 

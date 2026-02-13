@@ -16,76 +16,140 @@ description: This article is about development and testing with AI.
 ---
 ## AI-Driven Development and Testing
 
-In this project I explored how AI can assist building and testing simple expense tracker application by leveraging AI tools such as Cursor AI and OpenAI Codex.
+### Overview
+This repository demonstrates AI-assisted software development practices, featuring a Python-based expense tracker application. It showcases the integration of AI tools (like Cursor AI, GitHub Copilot, Codex OpenAI) in the software development lifecycle, from code generation to testing and documentation.
 
-To see a preview of this project go to [AI-DEV-TEST on Codespaces](https://miniature-fortnight-9p4r55gwpgwcpxv4.github.dev/).
-Note: In case codespace doesn't launch, repo is [here](https://github.com/kaironok/AI-DEV-TEST). 
-
-## Expense tracker application 
-The application is a simple terminal-based expense tracker that uses a CSV file as a database. The expenses have properties such as "name", "amount", and "category". The application allows users to add, view and delete expenses with all the data being automatically saved to and loaded from the CSV file.
-
-Promp (Cursor AI): 
-"Build me an expense tracker application, where the expenses have the properties
-"name", "amount" and "category". The application should be a simple terminal-
-based app, and should use a CSV file as a database where expenses are
-automatically saved to and loaded from." 
-
-## Steps
-
-1. Open Codespace.
-2. Run expence_tracker.py file or alternatively ask GitHub Copilot.
-3. Follow the prompts in the terminal to list, add, delete or edit expenses. 
-3. Verify CSV persistence.
-
-![Command line](/assets/images/Extr.jpeg)
+> To see a preview of this project go to [AI-DEV-TEST on Codespaces](https://miniature-fortnight-9p4r55gwpgwcpxv4.github.dev/).
+In case codespace doesn't launch, repo is [here](https://github.com/kaironok/AI-DEV-TEST). 
 
 
-## Expense Tracker
+## Expense Tracker Application
+A command-line expense tracker with CSV file persistence. The application allows users to manage personal expenses through an interactive terminal interface.
 
-- Purpose: command-line expense tracker with CSV persistence.
-- Core features:
-  - list expenses
-  - add expenses
-  - delete expenses
-  - edit expenses
-  - exit
-  
-## Simple Test
- Random Palindrome and Vowel Tests are for demo purposes. Coming soon: relevant update to expense tracker tests. 
+### Features
+- **List expenses**: View all recorded expenses in a formatted table
+- **Add expenses**: Create new expense entries with name, amount, and category
+- **Delete expenses**: Remove existing expenses by name
+- **Edit expenses**: Modify existing expense details
+- **CSV Persistence**: All data is automatically saved to and loaded from `expenses.csv`
 
-- `is_palindrome(s)` behavior (case-insensitive, ignores spaces).
-- `starts_with_vowel(s)` behavior (checks first character against vowels).
-- Note that this file currently demonstrates behavior with direct `print(...)` calls instead of a formal pytest test suite.
+### Original AI Prompt (Cursor AI)
+> "Build me an expense tracker application, where the expenses have the properties 'name', 'amount' and 'category'. The application should be a simple terminal-based app, and should use a CSV file as a database where expenses are automatically saved to and loaded from." 
 
-Suggested check:
+## Getting Started
+
+### Prerequisites
+- Python 3.10 or higher
+- pip (Python package installer)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kaironok/AI-DEV-TEST.git
+   cd AI-DEV-TEST
+   ```
+
+2. Install dependencies (optional, for testing):
+   ```bash
+   pip install pytest flake8
+   ```
+
+### Running the Application
+Run the expense tracker from the command line:
+```bash
+python Expense_tracker.py
+```
+
+Follow the interactive prompts to:
+1. List existing expenses
+2. Add a new expense
+3. Delete an expense
+4. Edit an expense
+5. Exit the application
+
+Your expenses will be automatically saved to `expenses.csv` in the same directory.
+
+![Command line interface](/assets/images/Extr.jpeg)
+
+## Testing
+
+This repository includes comprehensive test coverage demonstrating different testing approaches:
+
+### Simple Tests (`simple_test.py`)
+Random palindrome and vowel detection tests for demonstration purposes. These showcase basic Python testing with direct output validation.
+
+**Run with:**
 ```bash
 python simple_test.py
 ```
 
-## Expense Tracker Tests
-- Testing `pytest` with `monkeypatch`, `tmp_path`, and `capsys`.
-- Core feautures tested:
-  - CSV loading/saving.
-  - Output formatting for listing expenses.
-  - Add, delete and edit expenses.
-  - Main features (including invalid input handling).
-- Explain helper `_set_csv(...)` for test isolation using a temporary CSV path.
+**Tests include:**
+- `is_palindrome(s)`: Case-insensitive palindrome checking (ignores spaces)
+- `starts_with_vowel(s)`: Checks if a string starts with a vowel
 
-Suggested check:
+*Note: These are demonstration tests; future updates will include more relevant expense tracker validations.*
+
+### Unit Tests (`test_expense_tracker.py`)
+Comprehensive pytest suite testing the expense tracker functionality using `monkeypatch`, `tmp_path`, and `capsys` fixtures.
+
+**Run with:**
 ```bash
 pytest test_expense_tracker.py
 ```
 
-## Integration Tests 
-- Relationship between `To-do Item` workflow and expense persistence.
-- Integration behavior:
-  - Completed task triggers expense creation.
-  - Incomplete task does not create expense entry.
+**Features tested:**
+- CSV loading and saving operations
+- Expense listing with proper formatting
+- Add, delete, and edit expense operations
+- Invalid input handling
+- Main menu functionality
 
-Suggested check:
+The test suite uses helper functions like `_set_csv(...)` for test isolation with temporary CSV files.
+
+### Integration Tests (`integration_tests.py`)
+Tests demonstrating the integration between to-do item workflows and expense persistence.
+
+**Run with:**
 ```bash
 python integration_tests.py
 ```
+
+**Integration scenarios:**
+- Completed tasks trigger expense creation
+- Incomplete tasks do not create expense entries
+
+### Test Artifacts
+- **`TEST_REPORT.md`**: Human-readable summary of test results with pass/fail status and insights
+- **`test_results.txt`**: Raw test output for debugging and detailed analysis
+- **`TEST_SUMMARY.csv`**: Machine-readable summary for dashboards and reporting
+
+### Running All Tests
+```bash
+pytest
+```
+
+## Continuous Integration
+
+This repository uses GitHub Actions for automated testing and code quality checks.
+
+### Workflow: Python Application
+- **Trigger**: Runs on push and pull requests to the `main` branch
+- **Environment**: Ubuntu with Python 3.10
+- **Steps**:
+  1. Install dependencies (pytest, flake8)
+  2. Lint code with flake8 (syntax errors and code quality)
+  3. Run all tests with pytest
+
+View the workflow configuration in `.github/workflows/python-app.yml`.
+
+## Development Setup
+
+### Using Codespaces or VS Code Dev Containers
+This repository includes configuration for GitHub Codespaces and VS Code Dev Containers:
+- `.devcontainer/`: Dev container configuration for consistent development environment
+- `.vscode/`: VS Code workspace settings
+
+Simply open the repository in a Codespace or use the "Reopen in Container" option in VS Code.
 
 ## Test Report Description 
 
