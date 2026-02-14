@@ -157,7 +157,5 @@ Simply open the repository in a Codespace or use the "Reopen in Container" optio
 - `test_results.txt`: raw output from test runs, useful for debugging and detailed analysis.
 - `TEST_SUMMARY.csv`: compact machine-readable summary for reporting dashboards or further processing.
 
-## GitHub Actions
-- Action is added.
 ## Next 
 Project demonstrates AI and human in the loop for code, test and documentation generation. Moving forward, I plan to explore more AI capabilities to further enhance the software development lifecycle. I plan to add soon new cases for creating an AI-powered agile tool and API design. Stay tuned for updates! 

@@ -17,19 +17,19 @@ description: This article showcases testing communities events.
 
 
 
-Here to communities and events!
+Here to communities and events.
 
 Yesterday, I attended meetup event that brought together professionals across testing community. The event combined networking, knowledge sharing with focus on the future of software testing.
 
-You can find group here ↡ 
+> You can find group here ↡ 
 ![Finnish Testing meetup](/assets/images/fin.jpeg)
 
 ## Finnish Testing Meetup in Helsinki, Finland 
-[here](https://www.meetup.com/finland-testing-meetup-group/)
+> [here](https://www.meetup.com/finland-testing-meetup-group/)
 
 ## About the event
 
-I had a great opportunity to meet people and take part in several discussions. I contributed to the program by sharing insights and actively participating in conversations about testing practices, challenges, and innovation. The event also featured a competition for the Best Tester of the Year, highlighting excellence within the field.
+The event was a great opportunity to meet people and take part in discussions. I contributed to the program by sharing insights and actively participating in conversations about testing practices, challenges, and innovation. The event also featured a competition for the Best Tester of the Year, highlighting excellence within the field.
 
 ## Key takeaways
 
