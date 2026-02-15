@@ -17,42 +17,35 @@ description: This article showcases API Days conference events.
 
 
 
-Here to communities and events.
+Here to communities and events
 
 I had a chance to attend the API Days Conference in Helsinki, Finland 2025. The conference brought together professionals from the API ecosystem, including developers, architects and business leaders. It was a great opportunity to learn about the latest trends and best practices in API design, development and management.
 
-
-## API Days Conference in Helsinki, Finland 
+## API Days Conference in Helsinki, Finland
 
 SAVE THE DATE!
 APIOps Helsinki 2026 will bring the API community together again in June. This hands-on conference is an opportunity to work on current topics, connect with peers, and learn through workshops, expert panels and APIOps clinics.
 
-> 🗓️ 2.-3.6.2026 
+> 🗓️ 2.-3.6.2026
 📍 Epicenter, Helsinki, Finland
 
 (Psst! Early bird tickets are on sale now - register early and secure your place at the conference at a reduced price)
 
-Osaango is partnering with apidays and other partners for this event, proudly continuing the APIdays Helsinki tradition. 
+Osaango is partnering with apidays and other partners for this event, proudly continuing the APIdays Helsinki tradition.
 
 ## About the event
 
-I had a great opportunity to meet people and take part in several discussions. I contributed to the program by sharing insights and actively participating in conversations about API design, development and management. 
-
-![Here to 2025](/assets/images/ka3.jpeg)
-
+I had a great opportunity to meet people and take part in several discussions. I contributed to the program by sharing insights and actively participating in conversations about API design, development and management.
 
 ## My Talk Contribution
 
-I was talking about AI Testing and how it can be used to enhance API testing. I shared insights on how AI from ISTQB Testing AI Syllabus and also created demo with my digital AI twin. 
+I was talking about AI Testing and how it can be used to enhance API testing. I shared insights on how AI from ISTQB Testing AI Syllabus and also created demo with my digital AI twin.
 
 ## Next steps
+
 Reframing my talk for APIOps Helsinki 2026 and looking forward to sharing more insights on AI Testing in the context of APIs. Working on creating demo with my digital AI twin to showcase how AI can assist in API testing and management. Stay tuned for updates!
 
 ---
 
-
----
-
-## coming soon updates to tags and categories 
-😏 😉 🤓 🧠 🚀
-🧩 🛠️ 🤖 ✨
+## coming soon updates to tags and categories
+🤖

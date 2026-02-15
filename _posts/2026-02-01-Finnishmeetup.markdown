@@ -17,7 +17,7 @@ description: This article showcases testing communities events.
 
 
 
-Here to communities and events.
+Here to communities and events
 
 Yesterday, I attended meetup event that brought together professionals across testing community. The event combined networking, knowledge sharing with focus on the future of software testing.
 
@@ -40,13 +40,13 @@ The event was both inspiring and insightful. The presentations and discussions s
 I’m taking these insights and ideas forward into my own work and future collaborations. Events like this show how strong and motivated the testing community is, and I’m already looking forward to continuing these discussions and participating in future testing events.
 
 ## Action point: ✨ Voting for Best Tester soon to be open! ✨
+
 You can cast your vote [here](https://www.tieturi.fi/blogi/ehdota-seuraavaa-vuoden-testaajaa/).
 
 ---
 
-
 ---
 
 ## coming soon updates to tags and categories 
-😏 😉 🤓 🧠 🚀
-🧩 🛠️ 🤖 ✨
+ 🚀
+

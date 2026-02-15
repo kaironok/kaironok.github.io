@@ -2,16 +2,14 @@
 layout: home
 author: Katerina Kairo
 author_profile: true
+
 ---
 
 ![katerina kairo](/assets/images/ka1.jpeg){: .avatar} 
 
----
 
 # Welcome
 
+I am an innovative technologist, AI and QA engineer, test manager, self-taught programmer, translator, photographer, video editor, personal trainer. Somewhere along the way that should turn me into a well-read, multi-talented and multilingual Senior Architect.
 
-I am an innovative technologist, AI and QA engineer, test manager, self-taught programmer, translator and occasionally photographer, video editor etc. Somewhere along the way that should turn me into a well-read, multi-talented and multilingual Senior Architect. 
-
-Below you’ll find some articles and projects I started to collect. Feel free to reach out if you have any questions, suggestions, or just want to say hi.
-
+Below you’ll find some articles and projects I started to collect. Feel free to reach out if you have any questions, suggestions, or just want to say hi. 

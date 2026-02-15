@@ -19,6 +19,7 @@ h3.archive__subtitle {
     clear: both;
     color: #1d1d1d;
     font-family: "Work Sans", sans-serif;
+    letter-spacing: 0.08em;
     font-size: 1.35em;
 }
 
@@ -36,11 +37,23 @@ h3.archive__subtitle {
   font-weight: 400;
   font-style: normal;
 }
+
+.rochester-regular {
+    font-family: "Rochester", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
 }
 
 
 
-h1,
+h1 {
+    color: #c52323;
+    font-family: "Rochester", cursive;
+    font-weight: 1000;
+    letter-spacing: 0.08em;
+}
+
 h2 {
     color: #c52323;
     font-family: "Roboto Mono", sans-serif;
