@@ -16,138 +16,154 @@ description: This article is about development and testing with AI.
 ---
 ## AI-Driven Development and Testing
 
-### Overview
+This repository demonstrates a command-line Expense Tracker application with comprehensive testing and CI/CD automation.
 
-This repository demonstrates AI-assisted software development practices, featuring a Python-based expense tracker application. It showcases the integration of AI tools (like Cursor AI, GitHub Copilot, Codex OpenAI) in the software development lifecycle, from code generation to testing and documentation.
+**Key Features:**
 
-> To see a preview of this project go to [AI-DEV-TEST on Codespaces](https://miniature-fortnight-9p4r55gwpgwcpxv4.github.dev/).
-In case codespace doesn't launch, here is [repository](https://github.com/kaironok/AI-DEV-TEST).
+- Full CRUD operations for expense tracking
+- CSV-based data persistence
+- 15 comprehensive unit tests
+- Automated CI/CD with GitHub Actions
+- JUnit test reporting and dashboards
+- Flake8 linting for code quality
+- Integration tests for cross-module workflows
 
-## Expense Tracker Application
+> [AI-DEV-TEST]( https://github.com/kaironok/AI-DEV-TEST/)
+> [AI-DEV-TEST-Delivery](https://github.com/kaironok/AI-DEV-TEST-Delivery/)
 
-A command-line expense tracker with CSV file persistence. The application allows users to manage personal expenses through an interactive terminal interface.
+### Development Goals
 
-### Features
+Build and evolve a small command-line Expense Tracker while practicing clean Python structure, maintainable CRUD workflows and practical testability.
 
-- **List expenses**: View all recorded expenses in a formatted table
-- **Add expenses**: Create new expense entries with name, amount, and category
-- **Delete expenses**: Remove existing expenses by name
-- **Edit expenses**: Modify existing expense details
-- **CSV Persistence**: All data is automatically saved to and loaded from `expenses.csv`
+- Keep the core app simple, readable and beginner-friendly.
+- Preserve CSV-based persistence behavior.
+- Make updates safe by documenting expected behavior before/alongside code changes.
+- Encourage small, incremental improvements with quick validation.
 
-### Original AI Prompt (Cursor AI)
+### Testing Goals
 
-> "Build me an expense tracker application, where the expenses have the properties 'name', 'amount' and 'category'. The application should be a simple terminal-based app, and should use a CSV file as a database where expenses are automatically saved to and loaded from."
+Test to prove that core user flows (add/list/edit/delete expenses) stay reliable as code changes.
 
-## Getting Started
+- Catch regressions in file handling, menu flow, and user input behavior.
+- Validate both isolated logic (unit tests) and realistic behavior across modules (integration tests).
+- Keep test outputs understandable.
 
-### Prerequisites
+### Extended Testing Goals
 
-- Python 3.10 or higher
-- pip (Python package installer)
+Use these as the “further” testing targets for ongoing quality:
 
-### Application
+- **Correctness goal:** 100% pass rate on required local checks before merge.
+- **Coverage goal:** maintain tests for all existing CRUD paths and key error paths (missing files, empty data, invalid selections).
+- **Stability goal:** tests should be deterministic and not depend on shared mutable state.
+- **Isolation goal:** unit tests must use temporary files/mocking where appropriate to avoid side effects.
+- **Integration goal:** verify at least one end-to-end scenario where external input causes expected persistence changes.
+- **Reporting goal:** keep `TEST_REPORT.md`, `test_results.txt`, and `TEST_SUMMARY.csv` synchronized with current test outcomes.
 
-Follow the interactive prompts to:
+---
 
-1. List existing expenses
-2. Add a new expense
-3. Delete an expense
-4. Edit an expense
-5. Exit the application
+## Expense Tracker (`Expense_tracker.py`)
 
-Your expenses will be automatically saved to `expenses.csv` in the same directory.
+- Purpose: command-line expense tracker with CSV persistence.
+- Main constants: `CSV_FILE`, `FIELDS`.
+- Core functions:
+  - `load_expenses()` for reading CSV data (supports header and no-header files).
+  - `save_expense(expense)` for appending records and writing header once.
+  - `list_expenses(expenses)` for terminal table output.
+  - `add_expense()`, `delete_expense()`, `edit_expense()` for CRUD workflows.
+  - `main()` for interactive menu loop.
+- Expected behavior for empty files, missing files, non-existent edit/delete targets, and invalid menu choices.
 
-![Command line interface](/assets/images/Extr.jpeg)
+### Simple Tests - WIP
 
-## Testing
+- `is_palindrome(s)` behavior (case-insensitive, ignores spaces).
+- `starts_with_vowel(s)` behavior (checks first character against vowels).
+- Note that this file currently demonstrates behavior with direct `print(...)` calls instead of a formal pytest test suite.
 
-Project demonstrates different testing approaches
+### Expense Tracker Tests
 
-### Simple Tests (`simple_test.py`)
+- Test framework: `pytest` with `monkeypatch`, `tmp_path`, and `capsys`.
+- Coverage areas:
+  - CSV loading/saving.
+  - Output formatting for listing expenses.
+  - Add, delete, and edit workflows.
+  - Main menu flow (including invalid input handling).
+- Explain helper `_set_csv(...)` for test isolation using a temporary CSV path.
 
-Random palindrome and vowel detection tests for demonstration purposes. These showcase basic Python testing with direct output validation.
+### Integration Tests
 
-**Run with:**
+- Relationship between `Todo-Item` workflow and expense persistence.
+- Integration behavior:
+  - Completed task can trigger expense creation.
+  - Incomplete task does not create expense entry.
+- Mention that this script is interactive and requests user input during execution.
 
-```bash
-python simple_test.py
+### CI/CD Workflows
+
+GitHub Actions workflows for continuous integration and deployment.
+
+### Integration Workflow
+
+**Name:** `Python application`
+
+**Purpose:** Main integration workflow that runs on every push and pull request to the main branch.
+
+**Triggers:**
+
+- Push to `main` branch
+- Pull requests targeting `main` branch
+
+**Jobs:**
+
+- **Linting with flake8:**
+  - Checks for syntax errors and undefined names 
+  - Additional checks with warnings for complexity and line length 
+- **Testing with pytest:**
+  - Runs all tests with verbose output
+  - Generates JUnit XML report
+- **Test Report Publishing:**
+  - Uses `mikepenz/action-junit-report@v3` action
+  - Creates detailed test summary dashboard in GitHub Actions 
+  - Shows both passed and failed tests
+  - Runs even if tests fail
+
+**Permissions:**
+
+- `contents: read` - Read repository contents
+- `checks: write` - Write test results
+
+### Reusable Workflow
+
+**Name:** `Python CI/CD Reusable Workflow`
+
+**Purpose:** Reusable workflow that can be called from other workflows via `workflow_call` trigger.
+
+**Triggers:**
+
+- `workflow_call` - Can be invoked by other workflows
+
+**Jobs:**
+
+- **Linting with flake8:** Same as integration workflow
+- **Testing with pytest:** Runs all tests
+
+**Usage Example:**
+Other workflows can call this reusable workflow using:
+
+```yaml
+
+jobs:
+  integration:
+    uses: ./.github/workflows/python-CICD.yml
 ```
 
-**Tests include:**
+### Test Report Description
 
-- `is_palindrome(s)`: Case-insensitive palindrome checking (ignores spaces)
-- `starts_with_vowel(s)`: Checks if a string starts with a vowel
+- `TEST_REPORT.md`: narrative summary of pass/fail status, module-level coverage, and recommendations.
+- `test_results.txt`: raw command output from test execution.
+- `TEST_SUMMARY.csv`: compact machine-readable summary for reporting dashboards.
+- Guidance: regenerate these artifacts after any meaningful code/test update to keep documentation accurate.
 
-*Note: These are demonstration tests; future updates will include more relevant expense tracker validations.*
-
-### Unit Tests (`test_expense_tracker.py`)
-
-Comprehensive pytest suite testing the expense tracker functionality using `monkeypatch`, `tmp_path`, and `capsys` fixtures.
-
-**Run with:**
-
-```bash
-pytest test_expense_tracker.py
-```
-
-**Features tested:**
-
-- CSV loading and saving operations
-- Expense listing with proper formatting
-- Add, delete, and edit expense operations
-- Invalid input handling
-- Main menu functionality
-
-The test suite uses helper functions like `_set_csv(...)` for test isolation with temporary CSV files.
-
-### Integration Tests (`integration_tests.py`)
-
-Tests demonstrating the integration between to-do item workflows and expense persistence.
-
-**Run with:**
-
-```bash
-python integration_tests.py
-```
-
-**Integration scenarios:**
-
-- Completed tasks trigger expense creation
-- Incomplete tasks do not create expense entries
-
-### Test Artifacts
-
-- **`TEST_REPORT.md`**: Human-readable summary of test results with pass/fail status and insights
-- **`test_results.txt`**: Raw test output for debugging and detailed analysis
-- **`TEST_SUMMARY.csv`**: Machine-readable summary for dashboards and reporting
-
-### Running All Tests
-
-```bash
-pytest
-```
-
-## Continuous Integration
-
-This repository uses GitHub Actions for automated testing and code quality checks.
-
-### Workflow: Python Application
-
-- **Trigger**: Runs on push and pull requests to the `main` branch
-- **Environment**: Ubuntu with Python 3.10
-- **Steps**:
-  1. Install dependencies (pytest, flake8)
-  2. Lint code with flake8 (syntax errors and code quality)
-  3. Run all tests with pytest
-
-View the workflow configuration in `.github/workflows/python-app.yml`.
-
-## Test Report Description
-
-- `TEST_REPORT.md`: human-readable summary of test results, including pass/fail status and key insights.
-- `test_results.txt`: raw output from test runs, useful for debugging and detailed analysis.
-- `TEST_SUMMARY.csv`: compact machine-readable summary for reporting dashboards or further processing.
+---
 
 ## Next
 

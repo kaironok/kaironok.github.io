@@ -17,7 +17,7 @@ description: This article showcases API Days conference events.
 
 
 
-Here to communities and events
+Here to communities and events!
 
 I had a chance to attend the API Days Conference in Helsinki, Finland 2025. The conference brought together professionals from the API ecosystem, including developers, architects and business leaders. It was a great opportunity to learn about the latest trends and best practices in API design, development and management.
 
@@ -48,4 +48,5 @@ Reframing my talk for APIOps Helsinki 2026 and looking forward to sharing more i
 ---
 
 ## coming soon updates to tags and categories
+
 🤖

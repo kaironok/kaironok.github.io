@@ -17,14 +17,15 @@ description: This article showcases testing communities events.
 
 
 
-Here to communities and events
+Here to communities and events!
 
 Yesterday, I attended meetup event that brought together professionals across testing community. The event combined networking, knowledge sharing with focus on the future of software testing.
 
-> You can find group here ↡ 
+> You can find group here ↡
 ![Finnish Testing meetup](/assets/images/fin.jpeg)
 
-## Finnish Testing Meetup in Helsinki, Finland 
+## Finnish Testing Meetup in Helsinki, Finland
+
 > [here](https://www.meetup.com/finland-testing-meetup-group/)
 
 ## About the event
@@ -48,5 +49,6 @@ You can cast your vote [here](https://www.tieturi.fi/blogi/ehdota-seuraavaa-vuod
 ---
 
 ## coming soon updates to tags and categories 
+
  🚀
 
