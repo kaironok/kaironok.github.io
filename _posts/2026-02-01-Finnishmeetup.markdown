@@ -19,29 +19,28 @@ description: This article showcases testing communities events.
 
 Here to communities and events!
 
-Yesterday, I attended meetup event that brought together professionals across testing community. The event combined networking, knowledge sharing with focus on the future of software testing.
+Meetup events bringing together professionals across testing community. The event combines networking, knowledge sharing with focus on the future of software testing.
 
 
 ![Finnish Testing meetup](/assets/images/fin.jpeg)
 
 ## Finnish Testing Meetup in Helsinki, Finland
 
-> You can find group here ↡
+> You can find group [here](https://www.meetup.com/finland-testing-meetup-group/)
 
-> [here](https://www.meetup.com/finland-testing-meetup-group/)
+## About participation
 
-## About the event
-
-The event was a great opportunity to meet people and take part in discussions. I contributed to the program by sharing insights and actively participating in conversations about testing practices, challenges, and innovation. The event also featured a competition for the Best Tester of the Year, highlighting excellence within the field.
+Last meetup was a great opportunity to meet people and take part in discussions. I contributed to the program by sharing insights and actively participating in conversations about testing practices, challenges and innovation. The event also featured a competition for the Best Tester of the Year, highlighting excellence within the field.
 
 ## Key takeaways
 
-The event was both inspiring and insightful. The presentations and discussions strengthened connections within the community, and reinforced the importance of continuous learning and quality in testing.
+The presentations and discussions strengthened connections within the community and reinforced the importance of continuous learning and quality in testing.
 
 ## Next steps
-Excited (and a little challenged) for an upcoming talk at our Testing Community event 🎤  
 
-The topic is still evolving, but it will focus on Quality Assurance in a profession increasingly saturated by AI — and how we, as testing professionals, can navigate this shift thoughtfully and strategically.
+Excited (and a little challenged) for an upcoming talk at Testing Community 🎤  
+
+The topic is still evolving, but it will focus on Quality Assurance saturated by AI and how we, as testing professionals, can navigate this shift thoughtfully and strategically.
 
 I’ll be grounding the presentation in established theoretical foundations (drawing from ISTQB certification-based QA frameworks) while also exploring the broader context of how AI is reshaping our roles, skills and mindset. Right now, I’m in the process of compiling and structuring everything into a coherent story.
 
@@ -51,13 +50,14 @@ I’m also experimenting with something: integrating “digital twin” AI-gener
 
 Still shaping the final direction, but the journey of building this talk is already pushing me to think deeper about quality, responsibility and the future of our craft.
 
-More updates soon.
 
 ## Action point: ✨ Voting for Best Tester soon to be open! ✨
 
 You can cast your vote [here](https://www.tieturi.fi/blogi/ehdota-seuraavaa-vuoden-testaajaa/).
 
 ---
+
+
 
 ## coming soon updates to tags and categories 
 
