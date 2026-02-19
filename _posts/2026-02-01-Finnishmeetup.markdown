@@ -21,10 +21,12 @@ Here to communities and events!
 
 Yesterday, I attended meetup event that brought together professionals across testing community. The event combined networking, knowledge sharing with focus on the future of software testing.
 
-> You can find group here ↡
+
 ![Finnish Testing meetup](/assets/images/fin.jpeg)
 
 ## Finnish Testing Meetup in Helsinki, Finland
+
+> You can find group here ↡
 
 > [here](https://www.meetup.com/finland-testing-meetup-group/)
 
@@ -37,14 +39,23 @@ The event was a great opportunity to meet people and take part in discussions. I
 The event was both inspiring and insightful. The presentations and discussions strengthened connections within the community, and reinforced the importance of continuous learning and quality in testing.
 
 ## Next steps
+Excited (and a little challenged) for an upcoming talk at our Testing Community event 🎤  
 
-I’m taking these insights and ideas forward into my own work and future collaborations. Events like this show how strong and motivated the testing community is, and I’m already looking forward to continuing these discussions and participating in future testing events.
+The topic is still evolving, but it will focus on Quality Assurance in a profession increasingly saturated by AI — and how we, as testing professionals, can navigate this shift thoughtfully and strategically.
+
+I’ll be grounding the presentation in established theoretical foundations (drawing from ISTQB certification-based QA frameworks) while also exploring the broader context of how AI is reshaping our roles, skills and mindset. Right now, I’m in the process of compiling and structuring everything into a coherent story.
+
+To make sure the message is clear, we scheduled a rehearsal next Friday with friends and former colleagues.
+
+I’m also experimenting with something: integrating “digital twin” AI-generated videos into the presentation — including versions of me speaking in different languages and explaining concepts from multiple angles. It’s both a demonstration of the technology and a reflection on how it’s influencing our professional landscape.
+
+Still shaping the final direction, but the journey of building this talk is already pushing me to think deeper about quality, responsibility and the future of our craft.
+
+More updates soon.
 
 ## Action point: ✨ Voting for Best Tester soon to be open! ✨
 
 You can cast your vote [here](https://www.tieturi.fi/blogi/ehdota-seuraavaa-vuoden-testaajaa/).
-
----
 
 ---
 
