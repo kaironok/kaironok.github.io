@@ -5,7 +5,7 @@ date:   2026-02-01 16:13:27 -0500
 tags: [testing, python]
 author_profile: true
 author: Katerina
-categories: work
+categories: AI
 highlight_home: true
 tagline: "Building with AI"
 header:
@@ -115,14 +115,14 @@ GitHub Actions workflows for continuous integration and deployment.
 **Jobs:**
 
 - **Linting with flake8:**
-  - Checks for syntax errors and undefined names 
-  - Additional checks with warnings for complexity and line length 
+  - Checks for syntax errors and undefined names
+  - Additional checks with warnings for complexity and line length
 - **Testing with pytest:**
   - Runs all tests with verbose output
   - Generates JUnit XML report
 - **Test Report Publishing:**
   - Uses `mikepenz/action-junit-report@v3` action
-  - Creates detailed test summary dashboard in GitHub Actions 
+  - Creates detailed test summary dashboard in GitHub Actions
   - Shows both passed and failed tests
   - Runs even if tests fail
 
