@@ -1,7 +1,9 @@
-body {
-    background-color: rgb(249, 249, 249);
-    color: rgb(53, 53, 53);
-}
+ body {
+     background-color: rgb(249, 249, 249);
+     color: rgb(53, 53, 53);
+     font-family: "Inter", sans-serif;
+     font-size: 0.875rem;
+ }
 
 a {
     color: #1d1d1d
@@ -18,29 +20,29 @@ h3.archive__subtitle {
    h3 {
     clear: both;
     color: #1d1d1d;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Playfair Display", serif;
     letter-spacing: 0.08em;
-    font-size: 1.35em;
+    font-size: 1.65em;
 }
 
 /* Use Michroma for "My Favorite Work" / "My Favorite Articles" subtitles */
 h3.archive__subtitle {
     clear: both;
     color: #1d1d1d;
-    font-family: "Work Sans", sans-serif;
-    font-size: 1.35em;
+    font-family: "Playfair Display", serif;
+    font-size: 1.65em;
 }
 
 /* Utility class if you want to apply Michroma elsewhere */
-.michroma-regular {
-  font-family: "Work Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+     .michroma-regular {
+        font-family: "Inter", sans-serif;
+        font-weight: 250;
+        font-style: normal;
+    }
 
 .rochester-regular {
-    font-family: "Rochester", cursive;
-    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
     font-style: normal;
 }
 }
@@ -49,30 +51,37 @@ h3.archive__subtitle {
 
 h1 {
     color: #00005D;
-    font-family: "Rochester", cursive;
+    font-family: "Playfair Display", serif;
     font-weight: 1000;
     letter-spacing: 0.08em;
 }
 
 h2 {
     color: #00005D;
-    font-family: "Roboto Mono", sans-serif;
-    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    font-weight: 250;
 }
 
 h3,
 h3.archive__subtitle {
     color: #00005D;
-    font-weight: 400;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
 }
 
-p,
-.sidebar p,
-.archive__item-title,
-a,
-body {
-    font-family: "Work Sans", sans-serif;
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display", serif;
 }
+
+ p,
+ .sidebar p,
+ .archive__item-title,
+ a,
+ body {
+     font-family: "Inter", sans-serif;
+ }
 
 #main {
     position: relative;

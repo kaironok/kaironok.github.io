@@ -50,6 +50,16 @@ I’m also experimenting with something: integrating “digital twin” AI-gener
 
 Still shaping the final direction, but the journey of building this talk is already pushing me to think deeper about quality, responsibility and the future of our craft.
 
+## Presentation to be
+
+- intro
+- little bit of history
+- AI effect
+- AI categories
+- Testing challenges
+- Approaches
+- New testing types
+- the end
 
 ## Action point: ✨ Voting for Best Tester soon to be open! ✨
 
@@ -57,9 +67,6 @@ You can cast your vote [here](https://www.tieturi.fi/blogi/ehdota-seuraavaa-vuod
 
 ---
 
-
-
 ## coming soon updates to tags and categories 
 
  🚀
-

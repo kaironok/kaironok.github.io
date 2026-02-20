@@ -9,3 +9,9 @@
 @import "nav";
 @import "post";
 @import "taxonomy";
+
+.greedy-nav a:hover,
+.greedy-nav .hidden-links a:hover {
+    color: #1e1e90;
+    background: transparent;
+}

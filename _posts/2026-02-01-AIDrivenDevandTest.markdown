@@ -73,7 +73,7 @@ Use these as the “further” testing targets for ongoing quality:
   - `main()` for interactive menu loop.
 - Expected behavior for empty files, missing files, non-existent edit/delete targets, and invalid menu choices.
 
-### Simple Tests - WIP
+### Simple Tests - assume there are such business requirements
 
 - `is_palindrome(s)` behavior (case-insensitive, ignores spaces).
 - `starts_with_vowel(s)` behavior (checks first character against vowels).
@@ -167,4 +167,4 @@ jobs:
 
 ## Next
 
-Project demonstrates AI and human in the loop for code, test and documentation generation. Moving forward, I plan to explore more AI capabilities to further enhance the software development lifecycle. I plan to add soon new cases for creating an AI-powered agile tool and API design. Stay tuned for updates!
+ Moving forward, I plan to explore more AI capabilities to further enhance the software development lifecycle. I plan to add soon new cases for creating an AI-powered agile tool and API design. Stay tuned for updates!
