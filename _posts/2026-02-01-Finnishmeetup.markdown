@@ -54,15 +54,12 @@ Still shaping the final direction, but the journey of building this talk is alre
 
 When QA Meets AI Everywhere
  - Introduction. A little history: human vs machine. The rise of research labs like DeepMind.
-
 - AI categories: Narrow, General, Super.
-
-- Testing Challenges in AI Systems
-- Testing Approaches
-- New Types of Testing
+- Testing Challenges in AI Systems.
+- Testing Approaches.
+- Types of Testing.
 - Methods and Techniques: adversarial attacks, data poisoning, pairwise testing, back-to-back testing, A/B testing.
-
-- Closing: Ethics ? The role of quality professionals in ethical AI.
+- Closing: Ethics ? Quality professionals role in ethical AI world.
 
 ## Action point: ✨ Voting for Best Tester soon to be open! ✨
 
