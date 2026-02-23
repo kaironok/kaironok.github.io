@@ -52,14 +52,17 @@ Still shaping the final direction, but the journey of building this talk is alre
 
 ## Presentation to be
 
-- intro
-- little bit of history
-- AI effect
-- AI categories
-- Testing challenges
-- Approaches
-- New testing types
-- the end
+When QA Meets AI Everywhere
+ - Introduction. A little history: human vs machine. The rise of research labs like DeepMind.
+
+- AI categories: Narrow, General, Super.
+
+- Testing Challenges in AI Systems
+- Testing Approaches
+- New Types of Testing
+- Methods and Techniques: adversarial attacks, data poisoning, pairwise testing, back-to-back testing, A/B testing.
+
+- Closing: Ethics ? The role of quality professionals in ethical AI.
 
 ## Action point: ✨ Voting for Best Tester soon to be open! ✨
 

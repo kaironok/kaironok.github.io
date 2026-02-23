@@ -10,6 +10,6 @@ author_profile: true
 
 # Welcome
 
-I am an innovative technologist, AI and QA engineer, test manager, self-taught programmer, translator, photographer, video editor, personal trainer. Somewhere along the way that should turn me into a well-read, multi-talented and multilingual Architect.
+I am an innovative technologist, AI and QA engineer, test manager, self-taught programmer, when time allows translator, photographer, video editor. Somewhere along the way  it is well-read, multi-talented and multilingual Architect.
 
 Below you’ll find some articles and projects I started to collect. Feel free to reach out if you have any questions, suggestions or just want to say hi.
